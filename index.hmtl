@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👀 Mi App con Monitoreo</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            text-align: center;
+            margin: 50px;
+            background-color: #f0f8ff;
+        }
+        h1 {
+            color: #ff6b6b;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            margin: 10px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #9c27b0;
+        }
+        #error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>👀 ¡Monitoreando mi App! 👀</h1>
+    <button onclick="saludar()">👋 Saludar</button>
+    <button onclick="error()">❌ Forzar Error</button>
+    <p id="resultado"></p>
+    <p id="error"></p>
+    <script src="app.js"></script>
+</body>
+</html>
